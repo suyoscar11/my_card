@@ -12,41 +12,40 @@ class Homepages extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red,
       ),
-      body: Center(
-        child: Column(
-          children: [
-            CircleAvatar(
-              radius: 80,
-              backgroundColor: Colors.transparent,
-              child: Image(
-                image: AssetImage('assets/images/ball2.png'),
-              ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          CircleAvatar(
+            radius: 80,
+            backgroundColor: Colors.transparent,
+            child: Image(
+              image: AssetImage('assets/images/ball2.png'),
             ),
-            SizedBox(
-              height: 10,
-            ),
-            Text('Suyog Gaire',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                )),
-            Text(
-              'Flutter Developer',
-              style: TextStyle(fontSize: 15, fontStyle: FontStyle.italic),
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            OOPS(
-              textt: '+977-9749326717',
-              iconn: Icons.phone,
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            OOPS(iconn: Icons.mail, textt: 'suyoscar11@gmail.com')
-          ],
-        ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text('Suyog Gaire',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              )),
+          Text(
+            'Flutter Developer',
+            style: TextStyle(fontSize: 15, fontStyle: FontStyle.italic),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          OOPS(
+            textt: '+977-9749326717',
+            iconn: Icons.phone,
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          OOPS(iconn: Icons.mail, textt: 'suyoscar11@gmail.com')
+        ],
       ),
     );
   }
