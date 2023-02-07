@@ -18,9 +18,7 @@ class Homepages extends StatelessWidget {
           CircleAvatar(
             radius: 80,
             backgroundColor: Colors.transparent,
-            child: Image(
-              image: AssetImage('assets/images/ball2.png'),
-            ),
+            backgroundImage: AssetImage('assets/images/suyog.png'),
           ),
           SizedBox(
             height: 10,
