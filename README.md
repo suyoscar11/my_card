@@ -1,6 +1,6 @@
-# balen_shah
+# My Card
 
-A new Flutter project.
+A simple template on a demo business card.
 
 ## Getting Started
 
